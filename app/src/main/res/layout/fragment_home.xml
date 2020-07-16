@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-
+    android:background="@drawable/background"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -15,10 +14,34 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="@string/pregunta1"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="281dp"
+        android:layout_height="64dp"
+        android:text="respuesta 1"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="281dp"
+        android:layout_height="64dp"
+        android:text="Respuesta 2"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="281dp"
+        android:layout_height="64dp"
+        android:text="Respuesta 3"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="397dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
